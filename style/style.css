@@ -15,6 +15,13 @@ img {
   border-radius: 10px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* header */
 header {
   background-color: #007bff;
   background-image: linear-gradient(to right, #000000, #00264e); 
@@ -156,6 +163,8 @@ main {
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
+
+  bottom: 30px;
 }
 
 footer {
@@ -200,8 +209,6 @@ footer {
   bottom: 100%;
   left: 50%;
   margin-left: -60px;
-  
-  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
   opacity: 0;
   transition: opacity 1s;
 }
