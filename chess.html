@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <meta name="description" content="RobinCodes Website/Blog">
+    <meta name="keywords" content="Privacy, Coding, Computing">
+    <meta name="author" content="RobinCodes">
+    <title>RobinCodes | Currently Coding :)</title>
+    <style>
+        .chess-board { border-spacing: 0; border-collapse: collapse; }
+        .chess-board th { padding: .5em; }
+        .chess-board th + th { border-bottom: 1px solid #000; }
+        .chess-board th:first-child,
+        .chess-board td:last-child { border-right: 1px solid #000; }
+        .chess-board tr:last-child td { border-bottom: 1px solid; }
+        .chess-board th:empty { border: none; }
+        .chess-board td { width: 1.5em; height: 1.5em; text-align: center; font-size: 32px; line-height: 0;}
+        .chess-board .light { background: #eee; }
+        .chess-board .dark { background: #aaa; }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="Index.html" style="text-decoration: none; color: #fff;">RobinCodes Website/Blog</a></h1>        
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chatroom.html">Chatroom</a></li>
+                <li><a onclick="comingsoon()" href="#">Chess</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+      </header>
+
+    <br>
+    <h1 style="text-align: center;">Online Chess</h1>
+    <br>
+    
+    
+
+    <footer>
+        <p>&copy; 2024 RobinCodes. All Rights Reserved.</p>
+    </footer>
+
+<!-- scripts -->
+<script src="js/typewriter.js"></script>
+<script src="js/script.js"></script>
+<script src="js/coming-soon.js"></script>
+
+</body>
+</html>
