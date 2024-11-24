@@ -235,3 +235,8 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.imageshow:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
