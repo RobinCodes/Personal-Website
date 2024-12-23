@@ -64,6 +64,13 @@
             <br>
             <a href="https://discord.gg/6pSR2Rcqeg" target="_blank" class="project-link">View</a>
         </section>
+
+        <section class="project-panel">
+            <h2>Session</h2>
+            <p>You can talk to me privately on Session</p>
+            <br>
+            <a href="#" onclick="copyToClipboard()" id="session" class="project-link">View</a>
+        </section>
     </main>
 
     <footer>
@@ -74,6 +81,20 @@
 <script src="js/typewriter.js"></script>
 <script src="js/script.js"></script>
 <script src="js/coming-soon.js"></script>
+
+<!-- copy session ID to clipboard -->
+<script>
+    document.getElementById('session').addEventListener('click', () => {
+        const ID = '05503b95c3ccd5b3d98dc566954fae3506bff0dc0799597be9bcc93d6dc9ad1c0c';
+        
+        // Use the Clipboard API
+        navigator.clipboard.writeText(ID).then(() => {
+            alert('Session ID copied to clipboard!');
+        }).catch(err => {
+            console.error('Failed to copy: ', err);
+        });
+    });
+</script>
 
 </body>
 </html>
